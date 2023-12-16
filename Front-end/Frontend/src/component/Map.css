@@ -1,0 +1,22 @@
+.map-container {
+    height: 980px;
+}
+
+.mapboxgl-ctrl-geocoder {
+    width: 320px; 
+    font-size: 20px; 
+    border-radius: 8px; 
+}
+
+.mapboxgl-ctrl-geocoder input[type="text"]:focus {
+    border: none; 
+    outline: none;
+    box-shadow: none;
+}
+
+.mapboxgl-ctrl-zoom-in, .mapboxgl-ctrl-zoom-out {
+    width: 50px;
+    height: 50px; 
+    font-size: 16px;  
+}
+
